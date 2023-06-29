@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "src/interpreter/interpreter.h"
-#include "src/lexeme/lexeme.h"
+#include "interpreter/interpreter.h"
+#include "lexeme/lexeme.h"
 
 int main(int argc, char** argv, char** env) {
     std::cerr << env[0] << std::endl;
